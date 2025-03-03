@@ -48,7 +48,7 @@ pipeline {
     }
 
     triggers {
-        cron('H/3 * * * 4') // Every 3 minutes on Thursdays (4th day of the week)
+        cron('H/3 * * * 1') // Every 3 minutes on Mondays
     }
 
     post {
