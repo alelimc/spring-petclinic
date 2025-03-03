@@ -4,7 +4,7 @@
         stages {
             stage('Checkout') {
                 steps {
-                    git 'https://github.com/<your-username>/spring-petclinic.git'
+                    git 'https://github.com/alelimc/spring-petclinic.git'
                 }
             }
 
