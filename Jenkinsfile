@@ -6,7 +6,6 @@ pipeline {
             steps {
                 git(
                     url: 'https://github.com/alelimc/spring-petclinic.git',
-                    credentialsId: 'your-credentials-id', // Replace with your Jenkins credentials ID
                     branch: 'main' // Specify the branch to build
                 )
             }
